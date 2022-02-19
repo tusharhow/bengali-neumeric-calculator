@@ -168,10 +168,10 @@ class CalcAppState extends State<CalcApp> {
                 child: Padding(
                   padding: const EdgeInsets.all(12),
                   child: Text(
-                    '৳ $_expression',
+                    _expression.isEmpty ? '০' : _expression,
                     style: GoogleFonts.rubik(
-                      textStyle: const TextStyle(
-                        fontSize: 35,
+                      textStyle: TextStyle(
+                        fontSize: _expression.isEmpty ? 55 : 48,
                         color: Colors.white,
                       ),
                     ),
