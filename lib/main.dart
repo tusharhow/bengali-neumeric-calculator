@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'views/cal_page.dart.dart';
 import 'package:provider/provider.dart';
 import '../providers/calc_provider.dart';
+import 'views/cal_page.dart';
 
 void main() {
   runApp(const CalcApp());
