@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:nimu_calc/views/splash/splash_screen.dart';
 import 'package:provider/provider.dart';
 import '../providers/calc_provider.dart';
-import 'views/cal_page.dart';
 
 void main() {
   runApp(const CalcApp());
@@ -20,8 +20,8 @@ class CalcApp extends StatelessWidget {
       ],
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'NimuCalc',
-        home: CalcPage(),
+        title: 'Ekush Calculator',
+        home: Splash(),
       ),
     );
   }

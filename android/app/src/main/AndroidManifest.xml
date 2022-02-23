@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nimu_calc">
    <application
-        android:label="nimu_calc"
+        android:label="Ekush Calculator"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ekush_calculator_by_nimusoftlabs">
         <activity
             android:name=".MainActivity"
             android:exported="true"
